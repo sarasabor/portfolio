@@ -12,7 +12,7 @@
  <div class=" relative">
 
     <!-- header -->
-    <header class="fixed flex justify-between bg-gray-100
+    <header class="fixed z-10 flex justify-between bg-gray-100
                     items-center w-full h-[50px] pt-[50px] pb-[30px] px-[40px] shadow-sm shadow-gray-400 top-0 ">
        
             <div class="w-[50px] h-[50px] flex justify-center items-center text-pink-700 text-3xl ">
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
-                    <a href="#">SERVICES</a>
+                    <a href="#SERVICES">SERVICES</a>
                 </div>
 
                 <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
@@ -58,28 +58,45 @@
 
        <!-- hero section -->
     <main>
-        <!-- for labtop screen -->
-        <div id="home" class="home relative w-full h-[800px] mt-[80px] "> 
-            <img src="./images/dev-web-2.jpg" alt="laptop" class=" absolute z-0 w-full h-[800px]">
-            <div class="absolute z-1 flex justify-between items-center gap-[10rem] pt-[100px] px-[30px] 
-                         ">
-               
-                <h1 class="mt-[30px] w-[100px] h-[50px] text-white text-5xl ">
+        
+        <div id="home" class="home relative w-full h-[800px] mt-[80px]"> 
+            <div class="absolute inset-0">      
+            <img src="./images/dev-web-2.jpg" alt="laptop pic" class=" absolute max-md:hidden w-full h-[800px]">
+            <img src="./images/dev-mobile.jpg" alt="mobile pic" class="object-cover absolute max-md:block hidden mt-[50px] h-[800px] w-full">
+            <div class="absolute flex justify-between items-center md:mt-[180px] max-md:flex-col max-md:gap-[4rem] 
+                        max-md:mt-[70px] max-md:mt-[50px] w-full md:px-[30px]">
+                <h1 class=" text-white md:text-5xl max-md:text-3xl w-[100px] h-[100px] ">
                     INDEPENDENT WEB DEVELOPER</h1>
-                <p class="w-[140px] h-[70px] text-2xl text-gray-300 mt-[40px] ">welcome in my portfolio
+                <p class="text-4xl text-gray-300 w-[200px] h-[100px]">welcome in my portfolio
                 </p>
             </div>
-            <!-- ending laptop screen -->
-
-            <!-- for mobile screen -->
-
-            <!-- ending laptop screen -->
-
-
+         </div>
         </div>
 
         <div id="SERVICES" class="w-full h-[800px] bg-gray-300">
-
+                <div >
+                    <div class="bg-green-300 ">
+                        <h1>
+                            MY SERVICES
+                        </h1>
+                        <p>
+                            Services tailored to your needs
+                        </p>
+                    </div>
+                    <section class="bg-green-300 w-[50%] h-[600px]">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </section>
+                    <!-- <img src="" alt=""> -->
+                    <section class="bg-red-300 w-[50%] h-[600px]">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </section>
+                </div>
         </div>
 
         <div id="SKILLS" class="w-full h-[800px] bg-blue-300">
