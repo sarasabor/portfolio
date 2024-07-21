@@ -7,4 +7,9 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    height: 100vh;
 }
+
+/* .home {
+    background-image: url(./images/dev-web-2.jpg);
+} */

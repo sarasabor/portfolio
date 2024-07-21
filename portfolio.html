@@ -9,35 +9,97 @@
     <title>Document</title>
 </head>
 <body>
+ <div class=" relative">
 
     <!-- header -->
-    <header class="bg-gray-100 flex justify-between
-                    items-center w-full h-[50px] pt-[50px] pb-[30px] px-[40px] shadow-lg shadow-gray-300 ">
-        <div class="w-[50px] h-[50px] flex justify-center items-center text-pink-700 text-3xl ">
-            <i class="fa-solid fa-briefcase"></i>
-        </div>
+    <header class="fixed flex justify-between bg-gray-100
+                    items-center w-full h-[50px] pt-[50px] pb-[30px] px-[40px] shadow-sm shadow-gray-400 top-0 ">
+       
+            <div class="w-[50px] h-[50px] flex justify-center items-center text-pink-700 text-3xl ">
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
 
-        <div class="flex max-md:hidden gap-8 w-[700px]  ">
-            <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  "><a href="#"><i class="fa-solid fa-house-chimney" class=""></i></a></div>
-            <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  "><a href="#">SERVICES</a></div>
-            <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  "><a href="#">SKILLS</a></div>
-            <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  "><a href="#">PORTFOLIO</a></div>
-            <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  "><a href="#">ABOUT</a></div>
-            <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  "><a href="#">CONTACT</a></div>
-        </div>
+            <div class="flex max-md:hidden gap-8 w-[700px] ">
+                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                    <a href="#home"><i class="fa-solid fa-house-chimney" class=""></i></a>
+                </div>
 
-        <div class="flex md:hidden justify-center items-center w-[50px] h-[50px] border-2 rounded-full border-gray-700 ">
-            <a href="#"><i class="fa-solid fa-list"></i></a>
-        </div>
+                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                    <a href="#">SERVICES</a>
+                </div>
+
+                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                    <a href="#">SKILLS</a>
+                </div>
+
+                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                    <a href="#">PORTFOLIO</a>
+                </div>
+
+                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                    <a href="#">ABOUT</a>
+                </div>
+
+                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                    <a href="#">CONTACT</a>
+                </div>
+
+            </div>
+
+            <div class="flex md:hidden justify-center items-center w-[50px] h-[50px] border-2 rounded-full border-gray-700 ">
+                <a href="#"><i class="fa-solid fa-list"></i></a>
+            </div>
 
         <!-- mobile links -->
-    </header>
-    <!-- ending header -->
-    <main>
-        
-    </main>
-    <!-- hero section -->
 
+    </header>
+
+    <!-- ending header -->
+
+       <!-- hero section -->
+    <main>
+        <!-- for labtop screen -->
+        <div id="home" class="home relative w-full h-[800px] mt-[80px] "> 
+            <img src="./images/dev-web-2.jpg" alt="laptop" class=" absolute z-0 w-full h-[800px]">
+            <div class="absolute z-1 flex justify-between items-center gap-[10rem] pt-[100px] px-[30px] 
+                         ">
+               
+                <h1 class="mt-[30px] w-[100px] h-[50px] text-white text-5xl ">
+                    INDEPENDENT WEB DEVELOPER</h1>
+                <p class="w-[140px] h-[70px] text-2xl text-gray-300 mt-[40px] ">welcome in my portfolio
+                </p>
+            </div>
+            <!-- ending laptop screen -->
+
+            <!-- for mobile screen -->
+
+            <!-- ending laptop screen -->
+
+
+        </div>
+
+        <div id="SERVICES" class="w-full h-[800px] bg-gray-300">
+
+        </div>
+
+        <div id="SKILLS" class="w-full h-[800px] bg-blue-300">
+
+        </div>
+
+        <div id="PORTFOLIO" class="w-full h-[800px] bg-pink-300">
+
+        </div>
+
+        <div id="ABOUT" class="w-full h-[800px] bg-red-300">
+
+        </div>
+
+        <div id="CONTACT" class="w-full h-[800px] bg-green-300">
+
+        </div>
+
+    </main>
+ </div>
     <!-- * ending hero section -->
 </body>
 </html>
