@@ -9,97 +9,121 @@
     <title>Document</title>
 </head>
 <body>
- <div class=" relative">
-
-    <!-- header -->
-    <header class="fixed z-10 flex justify-between bg-gray-100
-                    items-center w-full h-[50px] pt-[50px] pb-[30px] px-[40px] shadow-sm shadow-gray-400 top-0 ">
+    <header class="fixed w-full max-md:p-[1rem] max-lg:p-[2rem] p-[2.3rem] z-10 top-0 flex justify-between bg-gray-100
+                    items-center shadow-sm shadow-gray-400 ">
        
-            <div class="w-[50px] h-[50px] flex justify-center items-center text-pink-700 text-3xl ">
+            <div class="flex justify-center items-center text-pink-700 text-3xl ">
                 <i class="fa-solid fa-briefcase"></i>
             </div>
 
-            <div class="flex max-md:hidden gap-8 w-[700px] ">
-                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+            <div class="flex w-[500px] justify-between max-lg:hidden">
+                <div class=" text-gray-500 active:text-pink-500 active:border-b-2 hover:text-pink-500 hover:border-b-2 border-b-pink-500 pb-4 ">
                     <a href="#home"><i class="fa-solid fa-house-chimney" class=""></i></a>
                 </div>
 
-                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
-                    <a href="#SERVICES">SERVICES</a>
+                <div class=" text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                    <a href="#about">ABOUT</a>
                 </div>
 
-                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
-                    <a href="#">SKILLS</a>
+                <div class=" text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                    <a href="#resume">RESUME</a>
                 </div>
 
-                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                <div class=" text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
                     <a href="#">PORTFOLIO</a>
                 </div>
 
-                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                <div class=" text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
                     <a href="#">ABOUT</a>
                 </div>
 
-                <div class="py-[20px] text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
+                <div class=" text-gray-500 hover:text-pink-500 hover:border-b-4 border-b-pink-500  ">
                     <a href="#">CONTACT</a>
                 </div>
 
             </div>
 
-            <div class="flex md:hidden justify-center items-center w-[50px] h-[50px] border-2 rounded-full border-gray-700 ">
+            <div class="flex lg:hidden justify-center items-center w-[50px] h-[50px] border-2 rounded-full border-gray-700 ">
                 <a href="#"><i class="fa-solid fa-list"></i></a>
             </div>
-
+    
         <!-- mobile links -->
 
-    </header>
+     </header> 
+     <div class="">
 
+    <!-- header -->
+     <!-- <div class="relative">
+
+    </div> -->
     <!-- ending header -->
 
        <!-- hero section -->
     <main>
         
-        <div id="home" class="home relative w-full h-[800px] mt-[80px]"> 
-            <div class="absolute inset-0">      
-            <img src="./images/dev-web-2.jpg" alt="laptop pic" class=" absolute max-md:hidden w-full h-[800px]">
-            <img src="./images/dev-mobile.jpg" alt="mobile pic" class="object-cover absolute max-md:block hidden mt-[50px] h-[800px] w-full">
-            <div class="absolute flex justify-between items-center md:mt-[180px] max-md:flex-col max-md:gap-[4rem] 
-                        max-md:mt-[70px] max-md:mt-[50px] w-full md:px-[30px]">
-                <h1 class=" text-white md:text-5xl max-md:text-3xl w-[100px] h-[100px] ">
+        <div id="home" class="home-bg w-full h-[800px] "> 
+            <div class=" inset-0">      
+            <img src="./images/dev-web-2.jpg" alt="laptop-pic" class=" max-lg:hidden ">
+            <img src="./images/dev-mobile.jpg" alt="mobile-pic" class="object-cover lg:hidden">
+            <div class=" flex justify-between items-center ">
+                <h1 class=" text-white  ">
                     INDEPENDENT WEB DEVELOPER</h1>
-                <p class="text-4xl text-gray-300 w-[200px] h-[100px]">welcome in my portfolio
+                <p class="text-4xl text-gray-800]">welcome in my portfolio
                 </p>
             </div>
          </div>
         </div>
 
-        <div id="SERVICES" class="w-full h-[800px] bg-gray-300">
-                <div >
-                    <div class="bg-green-300 ">
-                        <h1>
-                            MY SERVICES
-                        </h1>
-                        <p>
-                            Services tailored to your needs
-                        </p>
-                    </div>
-                    <section class="bg-green-300 w-[50%] h-[600px]">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </section>
-                    <!-- <img src="" alt=""> -->
-                    <section class="bg-red-300 w-[50%] h-[600px]">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </section>
+        <div id="about" class="w-full bg-white">
+            <div class="flex flex-col justify-center items-center">
+                <h1 class="text-gray-800 text-4xl w-fit">About Me</h1>
+                <p class="text-gray-500 text-xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Error assumenda tenetur consectetur natus commodi, 
+                ipsum quo, quam ad sed, odio modi eaque vel labore
+                illum corrupti unde iure! Iusto, aut.</p>
+            </div>
+            <div class="relative flex flex-col w-full">
+                <img src="./images/girl.jpg" alt="pic" class=" h-[800px] w-full">
+                <div class="absolute text-gray-200 inset-0 top-[570px] left-[90px] text-center text-xl">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Reprehenderit quae delectus dolorem id harum eveniet amet laborum. 
+                    Odit consectetur eveniet asperiores impedit necessitatibus repellat, 
+                    ab quas pariatur! Accusamus, facilis voluptatibus.
                 </div>
+            </div>
         </div>
 
-        <div id="SKILLS" class="w-full h-[800px] bg-blue-300">
+        <div id="resume" class=" bg-blue-300">
+            <h1>my resume</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Error assumenda tenetur consectetur natus commodi, 
+                ipsum quo, quam ad sed, odio modi eaque vel labore
+                illum corrupti unde iure! Iusto, aut.</p>
+
+            <div>
+                <h1></h1>
+                <div>
+                   <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> 
+
+            </div>
+            <div>
+                <h1></h1>
+                <div>
+                   <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
 
         </div>
 
